@@ -1,0 +1,23 @@
+{
+    "name"          : "node-red-contrib-marklogic",
+    "version"       : "0.0.1",
+    "description"   : "Node-RED nodes to manage a MarkLogic database",
+    "dependencies"  : {
+        "marklogic"   : "^2.0"
+    },
+    "repository" : {
+        "type":"git",
+        "url":"https://github.com/shrickus/node-red-contrib/tree/master/marklogic"
+    },
+    "license": "Apache-2.0",
+    "keywords": [ "node-red", "marklogic" ],
+    "node-red"      : {
+        "nodes"     : {
+            "marklogic": "marklogic.js"
+        }
+    },
+    "author": {
+        "name": "Steve Rickus",
+        "email": "srickus@gmail.com"
+    }
+}
